@@ -1,0 +1,204 @@
+@media screen and (max-width:576px) {
+    .header-sec {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header-mx-w {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .header-logo img {
+        width: 160px;
+        height: 29px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-icon img{
+        margin-right: 20px;
+    }
+
+    
+      #offCanvasContent {
+        transition: transform 0.3s ease-in-out;
+        transform: translatey(-100%);
+        height: 80vh;
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        right: 0;
+        width: 250px;
+        background-color: #f8f9fa; /* Adjust background color */
+        padding: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      #offCanvasContent.open {
+        transform: translatey(0);
+      }
+
+      .canva-para{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 306px;
+        padding: 12px;
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 7px;
+        margin-bottom: 7px;
+      }
+
+      .canva-h5{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'ibmplexsans', sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        display: block;
+        width: 100%;
+      }
+
+      .canva-para p{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        padding-left: 20px;
+      }
+
+      .canva-para img{
+        width: 60px;
+        height: 55px;
+      }
+
+      .jcsb{
+        justify-content: center;
+      }
+}
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .header-sec {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        ;
+    }
+
+    .header-mx-w {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .header-logo img {
+        width: 160px;
+        height: 29px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-icon {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .header-sec {
+        padding-top: 16px;
+        padding-bottom: 16px;
+       ;
+    }
+
+    .header-mx-w {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .header-logo img {
+        width: 160px;
+        height: 29px;
+        cursor: pointer;
+    }
+
+    .header-links {
+        line-height: 25.5px;
+    }
+
+    .header-links ul {
+        display: flex;
+    }
+
+    .header-links ul li {
+        list-style: none;
+        padding-right: 20px;
+    }
+
+    .header-links ul li a {
+        font-size: 17px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #2a2a2a;
+        font-family: ibmplexsans, sans-serif;
+        cursor: pointer;
+    }
+
+    .header-btn button {
+        width: 160px;
+        height: 45px;
+        padding: 0 30px;
+        color: #8c8c8c;
+        border: 1px solid #8c8c8c;
+        border-bottom-left-radius: 800px;
+        border-bottom-right-radius: 800px;
+        border-top-right-radius: 800px;
+        border-top-left-radius: 800px;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        cursor: pointer;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+}

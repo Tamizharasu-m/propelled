@@ -1,0 +1,25 @@
+{
+  "name": "slider",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "next": "14.2.4",
+    "offcanvas": "^3.3.0",
+    "offcanvas-bootstrap": "^2.5.2",
+    "react": "^18",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

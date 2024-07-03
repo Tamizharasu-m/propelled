@@ -1,0 +1,308 @@
+@media screen and (max-width:576px) {
+    .con-section1{
+        background-color: rgba(247, 247, 247, 0.75);
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    
+    .con-section1-mx-w1{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .con-text h2 {
+        font-size: 24px;
+        font-weight: 400;
+        /* line-height: 28px; */
+        font-family: ibmplexsans, sans-serif;
+        align-items: start;
+        color: rgb(42, 42, 42);
+        /* max-width: 1150px; */
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .con-btn{
+        width: 300px;
+        height: 50px;
+        border-radius:30px ;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .con-btn1{
+        width: 300px;
+        height: 200px;
+        border-radius:30px ;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .input{
+        margin-top: 24px;
+    }
+    
+    .con-div{
+        /* margin-left: 455px; */
+        margin-top: 48px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .input p{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        line-height: 18px;
+    
+    }
+    
+    .input p span {
+        text-decoration: underline;
+    }
+    
+    .product-btn {
+        display: flex;
+        align-items: center;
+        border: 0.8px solid black;
+        width: 160px;
+        height: 45px;
+        margin-top: 16px;
+        line-height: 21px;
+        padding: 0px 5px;
+        border-radius: 800px;
+        background-color: #323232;
+        cursor: pointer;
+    }
+    
+    .product-btn img {
+        width: 33px;
+        height: 33px;
+    }
+    
+    .product-btn span {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .con-section1{
+        background-color: rgba(247, 247, 247, 0.75);
+        padding-bottom: 200px;
+    }
+    
+    .con-section1-mx-w1{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .con-text{
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 48px;
+        font-family: ibmplexsans, sans-serif;
+        align-items: start;
+        color: rgb(42, 42, 42);
+        max-width: 1150px;
+    }
+    
+    .con-btn{
+        width: 600px;
+        height: 50px;
+        border-radius:30px ;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .con-btn1{
+        width: 600px;
+        height: 200px;
+        border-radius:30px ;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .input{
+        margin-top: 24px;
+    }
+    
+    .con-div{
+        /* margin-left: 455px; */
+        margin-top: 48px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .input p{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        line-height: 18px;
+    
+    }
+    
+    .input p span {
+        text-decoration: underline;
+    }
+    
+    .product-btn {
+        display: flex;
+        align-items: center;
+        border: 0.8px solid black;
+        width: 170px;
+        height: 45px;
+        margin-top: 16px;
+        line-height: 21px;
+        padding: 0px 5px;
+        border-radius: 800px;
+        background-color: #323232;
+        cursor: pointer;
+    }
+    
+    .product-btn img {
+        width: 33px;
+        height: 33px;
+    }
+    
+    .product-btn span {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .con-section1 {
+        background-color: rgba(247, 247, 247, 0.75);
+        padding-bottom: 200px;
+    }
+
+    .con-section1-mx-w1 {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .con-text {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 48px;
+        font-family: ibmplexsans, sans-serif;
+        align-items: start;
+        color: rgb(42, 42, 42);
+        max-width: 1150px;
+    }
+
+    .con-btn {
+        width: 805px;
+        height: 50px;
+        border-radius: 30px;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .con-btn1 {
+        width: 805px;
+        height: 200px;
+        border-radius: 30px;
+        border: 0.8px solid rgb(222, 226, 230);
+        background-color: rgb(255, 255, 255);
+        line-height: 24px;
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .input {
+        margin-top: 24px;
+    }
+
+    .con-div {
+        margin-left: 455px;
+        margin-top: 48px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .input p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        line-height: 18px;
+
+    }
+
+    .input p span {
+        text-decoration: underline;
+    }
+
+    .product-btn {
+        display: flex;
+        align-items: center;
+        border: 0.8px solid black;
+        width: 170px;
+        height: 45px;
+        margin-top: 16px;
+        line-height: 21px;
+        padding: 0px 5px;
+        border-radius: 800px;
+        background-color: #323232;
+        cursor: pointer;
+    }
+
+    .product-btn img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .product-btn span {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,173 @@
+@media screen and (max-width:576px) {
+    .con-section {
+        background-color: rgba(247, 247, 247, 0.75);
+        /* height: 70vh; */
+        padding-left: 10px;
+    }
+
+    .con-section-mx-w {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .con-head h1 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 24px;
+        font-family: ibmplexsans, sans-serif;
+    }
+
+    .con-df {
+        display: flex;
+        height: 45px;
+        width: 250px;
+        border: 0.8px solid rgb(42, 42, 42);
+        border-radius: 100px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .con-df p {
+        font-size: 17px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgb(42, 42, 42);
+        margin-bottom: 0px;
+    }
+
+    .card-box{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .card-box img{
+        width: 250px;
+        height: 142.5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-box h2{
+        color: rgb(235, 32, 39);
+        font-size: 16px;
+        font-weight: 600;
+        font-family: ibmplexsans, sans-serif;
+        line-height: 19.2px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+        padding-right: 50px;
+    }
+
+    .card-box span{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        font-family: "Open Sans", sans-serif;
+        /* padding-right: 50px; */
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .con-section {
+        background-color: rgba(247, 247, 247, 0.75);
+        height: 100vh;
+    }
+
+    .con-section-mx-w {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .con-head h1 {
+        font-size: 51px;
+        font-weight: 600;
+        line-height: 70px;
+        margin-bottom: 48px;
+        font-family: ibmplexsans, sans-serif;
+    }
+
+    .con-df {
+        display: flex;
+        height: 45px;
+        width: 250px;
+        border: 0.8px solid rgb(42, 42, 42);
+        border-radius: 100px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .con-df p {
+        font-size: 17px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgb(42, 42, 42);
+        margin-bottom: 0px;
+    }
+
+    .card-box{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .con-section {
+        background-color: rgba(247, 247, 247, 0.75);
+        height: 100vh;
+    }
+
+    .con-section-mx-w {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .con-head h1 {
+        font-size: 117px;
+        font-weight: 600;
+        line-height: 140px;
+        margin-bottom: 48px;
+        font-family: ibmplexsans, sans-serif;
+    }
+
+    .con-df {
+        display: flex;
+        height: 45px;
+        width: 250px;
+        border: 0.8px solid rgb(42, 42, 42);
+        border-radius: 100px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .con-df p {
+        font-size: 17px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgb(42, 42, 42);
+        margin-bottom: 0px;
+    }
+
+    .card-box{
+        display: none;
+    }
+}
