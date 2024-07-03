@@ -2,10 +2,11 @@
     .header-sec {
         padding-top: 16px;
         padding-bottom: 16px;
+      
     }
 
     .header-mx-w {
-        max-width: 500px;
+        max-width: 321px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;

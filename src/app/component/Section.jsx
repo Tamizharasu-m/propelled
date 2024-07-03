@@ -21,7 +21,7 @@ export default function Section() {
   return (
     <div className='container relative mx-auto'>
       <div className='h-[100vh] w-[100%] max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl xl:max-w-[1600px] mx-auto'>
-      <div className="absolute top-0 z-50 w-full">
+      <div className="absolute top-0 left-0 right-0 z-50 w-full">
         <Header/>
       </div>
         <Swiper
