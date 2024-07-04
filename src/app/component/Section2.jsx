@@ -24,7 +24,7 @@ export default function Section2() {
             ease: 'power3.out',
             scrollTrigger: {
               trigger: textRef.current,
-              start: 'top 90%',
+              start: 'top 80%',
               end: 'bottom 50%',
               scrub: true,
             },
@@ -47,7 +47,7 @@ export default function Section2() {
             stagger: 0.05,
             scrollTrigger: {
               trigger: text,
-              start: "top 80%",
+              start: "top 70%",
               end: "top 20%",
               scrub: true,
             },
