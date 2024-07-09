@@ -16,7 +16,7 @@ import { Scrollbar } from 'swiper/modules';
 
 export default function App() {
   return (
-    <div className='container mx-auto lg:h-[100vh] '>
+    <div className='container mx-auto lg:h-[100vh] mt-[20px]'>
       <div className='lg:flex w-[100%] max-w-xs sm:max-w-xl md:max-w-4xl lg:max-w-7xl xl:max-w-[1400px] mx-auto'>
         <div className='lg:w-[20%] lg:flex lg:justify-center lg:items-end mb-[50px] '>
           <h2 className='text-[24px] tracking-wider uppercase lg:text-[40px]'>insights</h2>
