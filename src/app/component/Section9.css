@@ -1,0 +1,70 @@
+@media screen and (max-width:576px) {
+.swiper-scrollbar-drag{
+    background-color: red;
+    height: 6px;
+    cursor: grab;
+    margin-left: 15px;
+    
+    
+}
+
+.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-horizontal{
+    background-color: black;
+    height: 1px;
+    
+}
+
+.next-bar{
+    height: 45vh;
+    margin-top: 24px;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+
+.swiper-scrollbar-drag{
+    background-color: red;
+    height: 6px;
+    cursor: grab;
+    margin-left: 15px;
+    
+    
+}
+
+.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-horizontal{
+    background-color: black;
+    height: 1px;
+    
+}
+
+.next-bar{
+    height: 45vh;
+    margin-top: 24px;
+}
+
+}
+
+
+@media screen and (min-width:992px) {
+
+.swiper-scrollbar-drag{
+    background-color: red;
+    height: 6px;
+    cursor: grab;
+    margin-left: 15px;
+    
+    
+}
+
+.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-horizontal{
+    background-color: black;
+    height: 1px;
+    
+}
+
+.next-bar{
+    height: 70vh;
+    margin-top: 24px;
+    width: 80%;
+}
+}
