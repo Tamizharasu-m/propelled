@@ -20,7 +20,8 @@ export default function Section1() {
               start: start,
               end: () => `+=${panel.offsetHeight}`, // Adjust end based on panel height
               pin: true, // Pin the panel when in view
-              pinSpacing: false // Disable pin spacing
+              pinSpacing: false, // Disable pin spacing
+              markers:true,
             });
           });
     
@@ -35,26 +36,26 @@ export default function Section1() {
             }
           });
     
-          // Function to refresh specific ScrollTriggers
-          function refreshScrollTriggers() {
-            scrollTriggers.forEach(st => st.refresh());
-            snapTrigger.refresh();
-          }
+          //Function to refresh specific ScrollTriggers
+        //   function refreshScrollTriggers() {
+        //     scrollTriggers.forEach(st => st.refresh());
+        //     snapTrigger.refresh();
+        //   }
     
-          // Example of when to call the refresh function
-          window.addEventListener('scrollend', refreshScrollTriggers);
+        //   // Example of when to call the refresh function
+        //   window.addEventListener('scrollend', refreshScrollTriggers);
     
-          // Cleanup function to remove event listeners and ScrollTriggers on component unmount
-          return () => {
-            window.removeEventListener('scrollend', refreshScrollTriggers);
-            scrollTriggers.forEach(st => st.kill());
-            snapTrigger.kill();
-          };
+        //   // Cleanup function to remove event listeners and ScrollTriggers on component unmount
+        //   return () => {
+        //     window.removeEventListener('scrollend', refreshScrollTriggers);
+        //     scrollTriggers.forEach(st => st.kill());
+        //     snapTrigger.kill();
+        //   };
         }
       }, []);
     
     return (
-        <div className='section2 '>
+        <div className='section2 pb-[300px]'>
             <div className="ourpanel">
             <video
                 className=""
@@ -64,7 +65,7 @@ export default function Section1() {
                 loop
             />
             </div>
-            <div className='bg ourpanel'>
+            <div className=' bg'>
                 <h2>the future <br></br> of electric <br></br>propulsion</h2>
             </div>
         </div>

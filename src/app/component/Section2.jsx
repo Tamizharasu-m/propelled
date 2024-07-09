@@ -58,7 +58,7 @@ export default function Section2() {
     
 
     return (
-        <div className='section3 mt-[200px]'>
+        <div className='section3'>
             <div className='section3-mx-w'>
                 <div className='text-left'>
                     <h2 ref={fontRef} >EPROPELLED DESIGNS <img className="text-img" src='./home image/ph1.webp' /> STATE OF THE ART  MOTORS, <img className='text-img1' src='./home image/ph3.webp' /> GENERATORS, AND POWERMANAGEMENT SYSTEMS.</h2>
