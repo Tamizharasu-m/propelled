@@ -1,9 +1,10 @@
 @media screen and (max-width:576px) {
 .swiper-scrollbar-drag{
     background-color: red;
-    height: 6px;
+    height: 5px;
     cursor: grab;
     margin-left: 15px;
+    
     
     
 }
@@ -24,7 +25,7 @@
 
 .swiper-scrollbar-drag{
     background-color: red;
-    height: 6px;
+    height: 5px;
     cursor: grab;
     margin-left: 15px;
     
@@ -49,7 +50,7 @@
 
 .swiper-scrollbar-drag{
     background-color: red;
-    height: 6px;
+    height: 2px;
     cursor: grab;
     margin-left: 15px;
     
