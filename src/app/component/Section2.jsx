@@ -15,7 +15,7 @@ export default function Section2() {
 
     useEffect(() => {
         gsap.fromTo(
-          textRef.current,
+          textRef1.current,
           { opacity: 0, y: 50 },
           {
             opacity: 1,
@@ -33,7 +33,7 @@ export default function Section2() {
       }, []);
 
       useEffect(() => {
-        const text = fontRef.current;
+        const text1 = fontRef.current;
         const letters = text.innerText.split('');
         text.innerHTML = letters.map(letter => `<span>${letter}</span>`).join('');
     
