@@ -50,7 +50,7 @@
 
 .swiper-scrollbar-drag{
     background-color: red;
-    height: 2px;
+    height: 5px;
     cursor: grab;
     margin-left: 15px;
     
