@@ -9,7 +9,7 @@ export default function Section1() {
     
     return (
         <div className='section2'>
-            <div className="">
+            <div className='section2-video'>
             <video
                 className=""
                 src="./home image/video.mp4"
